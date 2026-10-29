@@ -1,0 +1,21 @@
+# Gradle / Kotlin / IDE
+.gradle/
+.kotlin/
+build/
+local.properties
+.idea/
+*.iml
+.cxx/
+.externalNativeBuild/
+captures/
+.DS_Store
+
+# Fetched by scripts/fetch-android-deps.sh (pinned + SHA-256 verified; not committed)
+/core-pdf/src/main/cpp/third_party/
+/core-pdf/src/main/assets/fonts/
+/core-ocr/src/main/assets/tessdata/
+
+# Signing secrets
+keystore.properties
+*.jks
+*.keystore
